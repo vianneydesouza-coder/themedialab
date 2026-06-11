@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>THE MEDIA LAB</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#f4f7fb;
+color:#333;
+}
+
+header{
+background:linear-gradient(135deg,#0f172a,#2563eb);
+color:white;
+text-align:center;
+padding:80px 20px;
+animation:fadeIn 1.5s ease;
+}
+
+header h1{
+font-size:3rem;
+margin-bottom:10px;
+}
+
+header p{
+font-size:1.2rem;
+margin-bottom:25px;
+}
+
+.btn{
+display:inline-block;
+padding:12px 25px;
+background:#fbbf24;
+color:#000;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+transition:0.3s;
+}
+
+.btn:hover{
+transform:scale(1.05);
+}
+
+section{
+padding:60px 10%;
+}
+
+.section-title{
+text-align:center;
+font-size:2rem;
+margin-bottom:30px;
+color:#2563eb;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.register{
+background:white;
+max-width:700px;
+margin:auto;
+padding:30px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.register input{
+width:100%;
+padding:12px;
+margin:10px 0;
+border:1px solid #ccc;
+border-radius:8px;
+}
+
+.register button{
+width:100%;
+padding:12px;
+background:#2563eb;
+color:white;
+border:none;
+border-radius:8px;
+font-size:16px;
+cursor:pointer;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+footer{
+background:#0f172a;
+color:white;
+text-align:center;
+padding:25px;
+margin-top:50px;
+}
+
+@keyframes fadeIn{
+from{opacity:0;transform:translateY(-20px);}
+to{opacity:1;transform:translateY(0);}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>THE MEDIA LAB</h1>
+<p>Where Ideas Become Messages</p>
+<p>Communication & Media Studies Excellence</p>
+
+<a href="#register" class="btn">Register Now</a>
+</header>
+
+<section>
+<h2 class="section-title">About Us</h2>
+
+<div class="card">
+<h3>Founder: Vianney Joy</h3>
+<p>
+THE MEDIA LAB is dedicated to helping students achieve excellence in
+Communication & Media Studies through innovative teaching, notes,
+revision classes and digital learning resources.
+</p>
+</div>
+</section>
+
+<section>
+<h2 class="section-title">Our Courses</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>A/L Communication & Media Studies</h3>
+<p>Comprehensive theory and practical lessons.</p>
+</div>
+
+<div class="card">
+<h3>Revision Classes</h3>
+<p>Focused exam preparation and model papers.</p>
+</div>
+
+<div class="card">
+<h3>Premium Notes & Tutes</h3>
+<p>Well-structured study materials and guides.</p>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2 class="section-title">Why Choose Us?</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Expert Guidance</h3>
+<p>Learn with confidence from experienced educators.</p>
+</div>
+
+<div class="card">
+<h3>Modern Learning</h3>
+<p>Interactive lessons and digital resources.</p>
+</div>
+
+<div class="card">
+<h3>Exam Success</h3>
+<p>Strategies designed to improve student performance.</p>
+</div>
+
+</div>
+</section>
+
+<section id="register">
+<h2 class="section-title">Student Registration</h2>
+
+<div class="register">
+
+<input type="text" placeholder="Student Name">
+
+<input type="text" placeholder="School">
+
+<input type="text" placeholder="Grade">
+
+<input type="tel" placeholder="Phone Number">
+
+<input type="email" placeholder="Email Address">
+
+<button>Submit Registration</button>
+
+</div>
+</section>
+
+<footer>
+<h3>THE MEDIA LAB</h3>
+<p>Where Ideas Become Messages</p>
+<p>Founder: Vianney Joy</p>
+<p>📞 0777645769</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/94777645769" target="_blank">
+WhatsApp Us
+</a>
+
+</body>
+</html>
